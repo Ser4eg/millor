@@ -1,0 +1,48 @@
+/* *adaptive styles --------------------------------------------------------------------- */
+/* *XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1399px) {
+    
+}
+/* *X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1199px) {
+   
+}
+/* *Large devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+    .header__burger {
+        display: block;
+    }    
+    .header__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #fff;
+        padding: 300px 0 0 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__menu.active {
+        top: 0;
+    }
+    .header__list {
+        display: block;
+        padding: 0 3rem;
+    }
+    .header__list li + li {
+        margin: 40px 0 0 0;
+    }
+}
+/* *Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    
+}
+/* *Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+  
+}
+/* *< 320 devices (landscape phones, 576px and up) */
+@media (max-width: 320px) {
+  
+}

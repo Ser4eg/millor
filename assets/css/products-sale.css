@@ -1,0 +1,31 @@
+.products-sale {
+    padding: 90px 0 250px 0;
+}
+.products-sale__title {
+    text-align: right;
+    margin-bottom: 50px;
+}
+.products-sale__text {
+    width: 85%;
+    text-align: right;
+    margin-left: auto;
+}
+.products-sale__slider {
+    margin-top: 50px;
+}
+.products-slider {
+}
+.products-slider__item {
+    padding: 35px 10px;
+}
+.products-sale__link {
+    text-align: right;
+    margin: 15px 60px 0 0;    
+    /* margin-right: 60px; */
+}
+.products-sale__link a {
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration-line: underline;
+    color: var(--main-color);
+}

@@ -1,0 +1,123 @@
+@import url('header.css');
+@import url('offer.css');
+@import url('categories.css');
+@import url('products-sale.css');
+@import url('product-card.css');
+@import url('benefits.css');
+@import url('slider.css');
+@import url('animation.css');
+/* *common styles --------------------------------------------------------------------- */
+:root {
+    --main-color: #000000;
+    --text-color: #222222;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    height: 100%;    
+    overflow-y: none;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    line-height: 130%;
+    color: var(--main-color);
+}
+body.lock {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+a {    
+    text-decoration: none;        
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+button,
+select {   
+    outline: 0;     
+    border: none;   
+    cursor: pointer;
+    background: none;
+}
+
+input {
+    outline: none;
+}
+
+input:focus {
+    background-color: #fff;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+main {
+    background-image: url('../images/background-right.png'), url('../images/background-left.png');
+    background-position: top right, left 700px;
+    background-repeat: no-repeat, no-repeat; 
+}
+
+/* *class common styles --------------------------------------------------------------------- */
+.title-1 {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 6.25rem;
+    color: var(--main-color);
+}
+.title-2 {
+    font-weight: 900;
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    color: var(--main-color);
+}
+.title-3 {
+    /* font-weight: 900;
+    font-size: 3.125rem;
+    line-height: 3.875rem;
+    color: var(--main-color); */
+}
+.title-4 {
+    font-weight: 700;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+    color: var(--main-color);
+}
+.button {
+    display: inline-block;
+    padding: 10px 33px;
+    color: #fff;
+    font-weight: 700;    
+    background-color: #F9B300;
+    border-radius: 4px;
+    transition: background-color 0.3s ease 0s;
+}
+.button--primary {
+    padding: 15px 40px;
+    font-size: 1.3125rem;
+}
+.button:hover {
+    background-color: #E2A300;
+}
+
+

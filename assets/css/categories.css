@@ -1,0 +1,41 @@
+.categories {
+    padding: 80px 0 50px;   
+}
+.categories__title {
+    padding: 0 0 83px;
+}
+.categories__cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+    
+}
+.categories__cards-item {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+    border-radius: 20px;
+    position: relative;
+}
+.categories__cards__image img {
+    width: 100%;
+}
+.categories__cards-title {
+    padding: 30px 0 80px;
+}
+.categories__cards__button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    transform: scale(0);
+    transition: all 0.5s ease 0s;    
+}
+.button {
+}
+.categories__cards-item:hover .categories__cards__button {
+    transform: scale(1);    
+}

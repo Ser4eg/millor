@@ -1,0 +1,47 @@
+.offer {
+    padding: 160px 0 130px; 
+}
+.offer__slider {
+    display: flex;
+    align-items: center;
+}
+.offer-slider {
+    min-width: 0;
+}
+.offer-slider__title {
+    margin-bottom: 40px;
+}
+.offer-slider__text {
+    font-weight: 600;
+    margin-bottom: 60px;
+    width: 60%;
+}
+.offer-slider__text p + p {
+    margin-top: 15px;
+}
+.offer__image {
+    position: relative;
+}
+
+.offer__image img {
+    vertical-align: middle;
+    position: relative;
+    left: -30px;
+    animation-name: spin;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;    
+}
+.offer__image::before {  
+    content: '';
+    width: 150%;
+    height: 106%;
+    background-image: url('../images/coffee-bean-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 12px;
+    right: -30px;
+    transform: rotate(157deg) translate(10%, -5%);
+}
